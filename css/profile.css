@@ -1,0 +1,18 @@
+.profile { background: #fff; }
+.profile-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px; max-width: 900px; margin: 0 auto;
+}
+.profile-card {
+  background: linear-gradient(135deg, #eff6ff, #dbeafe);
+  padding: 30px; text-align: center;
+  border-radius: 12px;
+  transition: transform 0.25s, box-shadow 0.25s;
+  cursor: pointer;
+}
+.profile-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(37,99,235,0.2);
+}
+.profile-card h3 { color: #2563eb; margin-bottom: 8px; }
+.profile-card p { color: #475569; font-size: 0.95rem; }

@@ -1,0 +1,20 @@
+.skills { background: #fff; }
+.skills-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px 40px; max-width: 1000px; margin: 0 auto;
+}
+.skill { position: relative; }
+.skill label { font-weight: 600; color: #1e293b; }
+.skill em {
+  float: right; font-style: normal; color: #2563eb; font-weight: 600;
+}
+.bar {
+  background: #e2e8f0; height: 10px;
+  border-radius: 10px; overflow: hidden; margin-top: 6px;
+}
+.bar span {
+  display: block; height: 100%;
+  background: linear-gradient(90deg, #2563eb, #60a5fa);
+  border-radius: 10px;
+  transition: width 1s ease;
+}

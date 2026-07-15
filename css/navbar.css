@@ -1,0 +1,25 @@
+.navbar {
+  position: fixed; top: 0; left: 0; right: 0;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 15px 8%;
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  z-index: 1000;
+}
+.nav-left { display: flex; gap: 25px; flex-wrap: wrap; }
+.nav-left a {
+  font-weight: 500; color: #334155; transition: color 0.2s;
+  cursor: pointer;
+}
+.nav-left a:hover, .nav-left a.active { color: #2563eb; }
+.brand {
+  font-size: 1.3rem; font-weight: 700;
+  color: #1e293b;
+}
+.brand:hover { color: #2563eb; }
+
+@media (max-width: 700px) {
+  .navbar { flex-direction: column; gap: 10px; padding: 10px 5%; }
+  .nav-left { justify-content: center; gap: 15px; font-size: 0.9rem; }
+}

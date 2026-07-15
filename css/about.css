@@ -1,0 +1,15 @@
+.about {
+  display: flex; align-items: center; gap: 60px;
+  flex-wrap: wrap; background: #fff;
+}
+.about-text { flex: 1 1 400px; }
+.about-text h2 { text-align: left; }
+.about-text h2::after { margin-left: 0; }
+.about-text p { color: #475569; font-size: 1.05rem; }
+.about-image { flex: 0 1 320px; text-align: center; }
+.about-image img {
+  width: 100%; max-width: 320px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(37,99,235,0.2);
+  object-fit: cover;
+}

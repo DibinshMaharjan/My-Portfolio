@@ -1,0 +1,21 @@
+.landing {
+  display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  text-align: center;
+}
+.landing-content h4 { color: #475569; font-weight: 400; }
+.landing-content h1 {
+  font-size: 3.2rem; margin: 10px 0; color: #0f172a;
+}
+.landing-content h1 span { color: #2563eb; }
+.landing-content h2 { font-size: 1.6rem; color: #334155; border: none; }
+.landing-content h2::after { display: none; }
+.landing-content .accent { color: #2563eb; }
+.landing-content p { margin: 15px 0 30px; color: #475569; }
+.btn-download {
+  display: inline-block;
+  background: #2563eb; color: white;
+  padding: 12px 30px; border-radius: 30px;
+  font-weight: 600; transition: transform 0.2s, background 0.2s;
+}
+.btn-download:hover { background: #1d4ed8; transform: translateY(-2px); }
